@@ -1,0 +1,47 @@
+*{
+margin:0;
+  padding: 0;
+  background-color:#de9964;
+  /* background:rgba(255,0,0,.4); */
+
+  background-position: center;
+}
+
+ header {
+font-family: 'Tangerine';
+font-size: 48px;
+}
+
+nav {
+
+}
+
+p{
+  margin-left:10px;
+}
+
+ol{
+margin-left: 50px;
+  display:list-item;
+  list-style-type: lower-roman;
+
+}
+
+
+img.image1, img.image2, img.image3 {
+ display: inline;
+ border: solid;
+ border-radius: 100%;
+ width: 250px;
+ height: 250px;
+object-fit: contain;
+  opacity: 0.65;
+
+}
+
+form {
+border: solid;
+
+}
+/* RGBA not applying conistently when compared to
+HEX */
